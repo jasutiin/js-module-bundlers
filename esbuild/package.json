@@ -4,9 +4,9 @@
   "description": "experimenting with esbuild :)",
   "main": "index.js",
   "scripts": {
-    "build": "esbuild ./src/index.jsx --bundle --outfile=./dist/index.js --loader:.js=jsx",
-    "watch": "esbuild ./src/index.jsx --bundle --outfile=./dist/index.js --watch",
-    "serve": "esbuild ./src/index.jsx --bundle --outfile=./dist/index.js --serve=8000"
+    "build": "esbuild ./src/index.jsx --bundle --outfile=./src/dist/index.js --loader:.js=jsx",
+    "watch": "esbuild ./src/index.jsx --bundle --outfile=./src/dist/index.js --watch",
+    "serve": "esbuild ./src/index.jsx --bundle --outfile=./src/dist/index.js --servedir=./src --serve=8000"
   },
   "author": "",
   "license": "ISC",

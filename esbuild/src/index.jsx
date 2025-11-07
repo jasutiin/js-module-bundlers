@@ -1,4 +1,5 @@
 import ReactDOM from 'react-dom/client';
+import React from 'react'; // need this import even though it's not explicitly used
 
 function App() {
   return (
